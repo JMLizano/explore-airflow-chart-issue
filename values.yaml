@@ -1,0 +1,8 @@
+dags:
+  persistence:
+    enabled: true
+  gitSync:
+    enabled: true
+    repo: https://github.com/JMLizano/explore-airflow-chart-issue.git
+    branch: main 
+    subPath: "dags"
