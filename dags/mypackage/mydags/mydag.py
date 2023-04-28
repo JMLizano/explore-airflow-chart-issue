@@ -23,4 +23,4 @@ with DAG(
     sleeping_task = my_sleeping_function()
     second_task = second_function()
 
-    sleeping_task > second_task
+    sleeping_task >> second_task
