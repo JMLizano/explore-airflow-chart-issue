@@ -7,7 +7,7 @@ from mypackage.lib.mylib import lib_method
 
 with DAG(
     dag_id="my_dag_name",
-    start_date=datetime.datetime(2023, 4,1),
+    start_date=datetime.datetime(2023, 4, 26),
     schedule="@daily"
 ) as dag:
     
